@@ -1,0 +1,59 @@
+header {
+  background: linear-gradient(90deg, rgb(123, 156, 240) 0%, rgb(139, 217, 240) 100%);
+  padding: 20px;
+  text-align: right;
+}
+
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #656465;
+  text-decoration: none;
+  margin-right: 10px;
+  
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.search-container {
+  float: left;
+  margin-top: -20px;
+  margin-left: 10%;
+}
+
+.search-container input[type="text"] {
+  padding: 6px;
+  border: none;
+}
+
+.search-container button {
+  padding: 6px 10px;
+  background-color: #555;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+
+.icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+  align-items: flex-end;
+}
+
+.icons i {
+  font-size: 20px;
+  color: #fff;
+  align-items: flex-end;
+}
+
+
+
